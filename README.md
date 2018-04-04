@@ -1,3 +1,3 @@
 # coding
 Learning  Alg by myself
-## 用Java 完成剑指offer中的题
+## 用Java 完成剑指offer和普林斯顿算法课中的题
