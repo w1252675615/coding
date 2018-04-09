@@ -1,4 +1,4 @@
-package offer.Q03_DuplicationInArray;
+package Offer.Q03_DuplicationInArray;
 
 /*
     长度为n的数组，其中数字取值0 - n-1， 请找出任意一个重复的数字

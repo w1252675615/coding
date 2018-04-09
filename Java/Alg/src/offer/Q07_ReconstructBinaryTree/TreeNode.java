@@ -1,4 +1,4 @@
-package offer.Q07_ReconstructBinaryTree;
+package Offer.Q07_ReconstructBinaryTree;
 
 public class TreeNode {
     int val;

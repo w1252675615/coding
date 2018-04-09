@@ -1,4 +1,4 @@
-package offer.Q06_PrintListReversedOrder;
+package Offer.Q06_PrintListReversedOrder;
 
 import java.util.ArrayList;
 import java.util.Stack;

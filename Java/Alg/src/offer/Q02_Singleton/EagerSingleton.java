@@ -1,4 +1,4 @@
-package offer.Q02_Singleton;/*
+package Offer.Q02_Singleton;/*
        饿汉模式，不能做到lazy loading。
  */
 

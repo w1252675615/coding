@@ -1,4 +1,4 @@
-package offer.Q02_Singleton;/*
+package Offer.Q02_Singleton;/*
     1.自由序列化 2.只有一个实例，不怕反射 3.线程安全
  */
 

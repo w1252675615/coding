@@ -1,6 +1,4 @@
-package offer.Q23_EntryNodeInListLoop;
-
-import java.util.ArrayList;
+package Offer.Q23_EntryNodeInListLoop;
 
 public class ListNode {
       int val;

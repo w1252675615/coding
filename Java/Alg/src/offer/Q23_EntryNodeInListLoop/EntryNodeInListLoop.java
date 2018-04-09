@@ -1,4 +1,4 @@
-package offer.Q23_EntryNodeInListLoop;
+package Offer.Q23_EntryNodeInListLoop;
 
 public class EntryNodeInListLoop {
     public ListNode EntryNodeOfLoop(ListNode pHead)

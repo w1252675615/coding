@@ -1,4 +1,4 @@
-package offer.Q08_NextNodeInBinaryTree;
+package Offer.Q08_NextNodeInBinaryTree;
 /*
         给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
  */

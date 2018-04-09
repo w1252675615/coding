@@ -1,4 +1,4 @@
-package offer.Q22_KthNodeFromEnd;
+package Offer.Q22_KthNodeFromEnd;
 
 public class KthNodeFromEnd {
     public ListNode FindKthToTail(ListNode head,int k) {

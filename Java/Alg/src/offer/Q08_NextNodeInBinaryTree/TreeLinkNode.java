@@ -1,4 +1,4 @@
-package offer.Q08_NextNodeInBinaryTree;
+package Offer.Q08_NextNodeInBinaryTree;
 
 public class TreeLinkNode {
     int val;

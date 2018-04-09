@@ -1,4 +1,4 @@
-package offer.Q21_ReorderArray;
+package Offer.Q21_ReorderArray;
 /*
     调整数组，使得奇数位于偶数前面
     注意：奇数（偶数）之间相对顺序不能改变

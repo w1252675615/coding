@@ -1,4 +1,4 @@
-package offer.Q09_QueueWithTwoStack;
+package Offer.Q09_QueueWithTwoStack;
 /*
     两个栈实现队列
  */

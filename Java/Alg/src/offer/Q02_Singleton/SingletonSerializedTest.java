@@ -1,4 +1,4 @@
-package offer.Q02_Singleton;
+package Offer.Q02_Singleton;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

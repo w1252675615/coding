@@ -1,4 +1,4 @@
-package offer.Q02_Singleton;/*
+package Offer.Q02_Singleton;/*
     使用静态内部类加载，Lazy loading，线程安全。
  */
 

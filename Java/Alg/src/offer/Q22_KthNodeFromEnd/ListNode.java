@@ -1,4 +1,4 @@
-package offer.Q22_KthNodeFromEnd;
+package Offer.Q22_KthNodeFromEnd;
 
 public class ListNode {
       int val;

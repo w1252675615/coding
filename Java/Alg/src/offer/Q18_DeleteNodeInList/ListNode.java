@@ -1,4 +1,4 @@
-package offer.Q18_DeleteNodeInList;
+package Offer.Q18_DeleteNodeInList;
 
 public class ListNode {
       int val;

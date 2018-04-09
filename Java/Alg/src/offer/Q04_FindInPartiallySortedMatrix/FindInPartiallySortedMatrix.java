@@ -1,4 +1,4 @@
-package offer.Q04_FindInPartiallySortedMatrix;
+package Offer.Q04_FindInPartiallySortedMatrix;
 
 public class FindInPartiallySortedMatrix {
     boolean Find(int[][] matrix,int rows, int cols, int num) {

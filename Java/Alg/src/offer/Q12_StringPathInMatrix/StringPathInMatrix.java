@@ -1,4 +1,4 @@
-package offer.Q12_StringPathInMatrix;
+package Offer.Q12_StringPathInMatrix;
 
 public class StringPathInMatrix {
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str)

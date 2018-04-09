@@ -1,4 +1,4 @@
-package offer.Q10_Fibonacci;
+package Offer.Q10_Fibonacci;
 /*
     once can jump from 1 to n，result is 2^(n-1)
     n阶台阶，一次可以跳1到n的步数,结果是2^(n-1)

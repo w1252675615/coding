@@ -1,4 +1,4 @@
-package offer.Q18_DeleteNodeInList;
+package Offer.Q18_DeleteNodeInList;
 /*
     O(1)时间删除单链表中节点
  */

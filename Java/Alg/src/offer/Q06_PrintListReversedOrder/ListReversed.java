@@ -1,4 +1,4 @@
-package offer.Q06_PrintListReversedOrder;
+package Offer.Q06_PrintListReversedOrder;
 
 public class ListReversed {
     public ListNode ReverseList(ListNode head) {

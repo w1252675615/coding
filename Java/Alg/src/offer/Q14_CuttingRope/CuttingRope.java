@@ -1,4 +1,4 @@
-package offer.Q14_CuttingRope;
+package Offer.Q14_CuttingRope;
 /*
     长度为n的绳子剪成若干段(大于一段)，每段为整数，要求所有段长度的乘积最大，求最大值
  */

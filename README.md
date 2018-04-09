@@ -1,4 +1,7 @@
-## coding
-Learning  Alg by myself
-# 用Java 完成剑指offer和普林斯顿算法课中的题
-# 面试中遇到的一些算法题
+# coding
+Learning Alg by myself
+coding with java
+## AlgorithmsBook包下是普林斯顿算法课大作业和课后题（暂时停更）
+## Important是一些重要的基础算法，各种排序算法，KMP，Mnacher等等
+## Interview是做过的面试题
+## Offer是剑指offer上的题

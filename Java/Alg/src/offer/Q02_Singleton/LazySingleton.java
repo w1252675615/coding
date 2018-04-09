@@ -1,4 +1,4 @@
-package offer.Q02_Singleton;/*
+package Offer.Q02_Singleton;/*
     加线程锁的懒汉模式，可以lazy loading，锁占用额外资源，效率很低。
  */
 

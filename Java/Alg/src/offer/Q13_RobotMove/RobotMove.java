@@ -1,4 +1,4 @@
-package offer.Q13_RobotMove;
+package Offer.Q13_RobotMove;
 
 public class RobotMove {
     public int movingCount(int threshold, int rows, int cols){

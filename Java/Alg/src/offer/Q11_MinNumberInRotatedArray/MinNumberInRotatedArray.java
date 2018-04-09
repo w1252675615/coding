@@ -1,4 +1,4 @@
-package offer.Q11_MinNumberInRotatedArray;
+package Offer.Q11_MinNumberInRotatedArray;
 
 public class MinNumberInRotatedArray {
     private int minInArray(int[] array, int index1, int index2) {

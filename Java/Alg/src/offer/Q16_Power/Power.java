@@ -1,4 +1,4 @@
-package offer.Q16_Power;
+package Offer.Q16_Power;
 
 public class Power {
     public double powerOfInt(double base, int exponent) {

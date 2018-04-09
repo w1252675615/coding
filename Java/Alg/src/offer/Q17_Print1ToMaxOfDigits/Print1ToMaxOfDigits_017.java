@@ -1,4 +1,4 @@
-package offer.Q17_Print1ToMaxOfDigits;
+package Offer.Q17_Print1ToMaxOfDigits;
 /*
     print number of n digits,from 1 to max
     打印从1到最大的n位数

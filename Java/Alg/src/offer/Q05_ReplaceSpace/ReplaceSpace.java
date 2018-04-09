@@ -1,4 +1,4 @@
-package offer.Q05_ReplaceSpace;
+package Offer.Q05_ReplaceSpace;
 
 /*
     空格变成%20

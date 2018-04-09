@@ -1,4 +1,4 @@
-package offer.Q15_NumberOf1InBinary;
+package Offer.Q15_NumberOf1InBinary;
 
 public class NumberOf1InBinary {
     int NumberOf1(int n) {

@@ -1,4 +1,4 @@
-package offer.Q03_DuplicationInArray;
+package Offer.Q03_DuplicationInArray;
 
 /*
     长度为n+1的数组，数字范围为1-n，不改变数组本身

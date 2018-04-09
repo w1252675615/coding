@@ -1,4 +1,4 @@
-package offer.Q10_Fibonacci;
+package Offer.Q10_Fibonacci;
 
 public class Fibonacci {
     int fibonacci(int n, int n1, int n2) {
