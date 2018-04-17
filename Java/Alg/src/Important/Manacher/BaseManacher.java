@@ -1,4 +1,6 @@
 package Important.Manacher;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class BaseManacher {
     public static char[] manacherString(String str) { //在字符串间隔之间填充'#',包括开头结尾
@@ -34,5 +36,7 @@ public class BaseManacher {
     public static void main(String[] args) {
         String str1 = "abc1234321ab";
         System.out.println(maxLpsLength(str1));
+        BlockingQueue<String> queue = new ArrayBlockingQueue<>(100);
+
     }
 }

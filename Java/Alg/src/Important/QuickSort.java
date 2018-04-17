@@ -6,7 +6,7 @@ import java.util.Random;
 public class QuickSort {
     public void basicSort(int[] a, int lo, int hi) {
         if(lo >= hi) return;
-        int j = basicPartition(a,lo,hi);
+        int j = basicPartition2(a,lo,hi);
         basicSort(a,lo,j-1);
         basicSort(a,j+1,hi);
     }
@@ -25,6 +25,21 @@ public class QuickSort {
         }
         exchange(a,j,lo);
         return j;
+    }
+    private int basicPartition2(int[] a ,int lo, int hi) {
+        Random random = new Random(100);
+        int index = random.nextInt(hi-lo);
+        exchange(a,index,hi);
+        int small = lo - 1;
+        for (index=lo;index<hi;++index) {
+            if (a[index] < a[hi]) {
+                ++small;
+                if (index != small) exchange(a,small,index);
+            }
+        }
+        ++small;
+        exchange(a,small,hi);
+        return small;
     }
     private static void exchange(int[] a, int i, int j) {
         int temp = a[i];
