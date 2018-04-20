@@ -7,7 +7,7 @@ public class BaseKMP {
         next[0] = -1;
         next[1] = 0;
         int pos = 2;//当前需要判断的位置，next[i]得到的是i之前0~i-1的字符串的最长
-        int cn = 0; //表示当前最长前缀的后一个位置
+        int cn = 0; //表示当前最长前缀的长度
         while (pos < patternArr.length) {
             if (patternArr[cn] == patternArr[pos-1]){
                 next[pos++] = ++cn;

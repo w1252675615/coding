@@ -14,12 +14,13 @@ class test {
     }
 
     public static void main(String[] args) {
-        String s = "123";
+        /*String s = "123";
         try {
             byte[] b = s.getBytes("UTF-8");
         } catch (UnsupportedEncodingException e) {
             //e.printStackTrace();
             System.out.println(e.getMessage());
-        }
+        }*/
+        System.out.println(3%5);
     }
 }
