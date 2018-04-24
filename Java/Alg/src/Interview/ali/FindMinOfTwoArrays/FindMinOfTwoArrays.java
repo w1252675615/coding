@@ -1,4 +1,4 @@
-package Interview.ali;
+package Interview.ali.FindMinOfTwoArrays;
 
 public class FindMinOfTwoArrays {
     static long FindMin(int[] from, int[] to) {

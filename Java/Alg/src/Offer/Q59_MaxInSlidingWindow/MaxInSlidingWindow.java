@@ -1,5 +1,8 @@
 package Offer.Q59_MaxInSlidingWindow;
-
+/*
+    大小为size的滑动窗口，求每个窗口中的最大值
+    关键是不把每个数存入双端队列，如果当前数大于队列左边的数，则这些数都不可能为最大值
+ */
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
@@ -14,13 +17,13 @@ public class MaxInSlidingWindow {
             while (!maxInWindows.isEmpty() && num[i] > num[maxInWindows.peekLast()]) maxInWindows.pollLast();
             maxInWindows.offerLast(i);
         }
-        for (int i = size; i < num.length; ++i) {
-            res.add(num[maxInWindows.peekFirst()]);
-            while (!maxInWindows.isEmpty() && num[i] > num[maxInWindows.peekLast()]) maxInWindows.pollLast();
-            if (!maxInWindows.isEmpty() && i-maxInWindows.peekFirst() >= size) maxInWindows.pollFirst();
-            maxInWindows.offerLast(i);
-        }
         res.add(num[maxInWindows.peekFirst()]);
+        for (int i = size; i < num.length; ++i) {
+            if (!maxInWindows.isEmpty() && i-maxInWindows.peekFirst() >= size) maxInWindows.pollFirst();
+            while (!maxInWindows.isEmpty() && num[i] > num[maxInWindows.peekLast()]) maxInWindows.pollLast();
+            maxInWindows.offerLast(i);
+            res.add(num[maxInWindows.peekFirst()]);
+        }
         return res;
     }
 

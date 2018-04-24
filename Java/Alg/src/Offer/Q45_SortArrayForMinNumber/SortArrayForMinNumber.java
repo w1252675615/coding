@@ -4,7 +4,9 @@ package Offer.Q45_SortArrayForMinNumber;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
+/*
+    将一列数排成最小的数
+ */
 public class SortArrayForMinNumber {
     public String PrintMinNumber(int [] numbers) {
         if (numbers == null || numbers.length == 0) return "";

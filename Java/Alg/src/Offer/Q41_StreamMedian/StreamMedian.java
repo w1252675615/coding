@@ -1,6 +1,6 @@
 package Offer.Q41_StreamMedian;
 /*
-    找出动态变化的数据结构的中位数
+    找出数据流的中位数
 */
 
 import java.util.Comparator;

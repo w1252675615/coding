@@ -1,4 +1,4 @@
-package Interview.Baidu;
+package Interview.Baidu.FivePersonForNCountry;
 /*
     n个国家，每个国家5名队员，站成一行，要求每个队员有要和自己国家的队员在一起，有多少种站法
  */
@@ -37,9 +37,9 @@ public class FivePesonForNCountry {
         long sum = 0;
         for (int i = 0; i <= n; ++i) {
             int signed = (i & 1) == 1 ? -1 : 1;
-            sum += nPickK(n,i)*signed*factorial(2*n-i)%MOD;
+            sum += nPickK(n,i)*signed*factorial(2*n-i);
         }
-        return sum%MOD;
+        return sum;
     }
 
     private static long powerWithUnsignedInt(int base,  int exponent){
