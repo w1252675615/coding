@@ -31,6 +31,7 @@ public class postOrderTraversal {
         }
     }
 
+
     public static void main(String[] args) {
         TreeNode pRoot = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);

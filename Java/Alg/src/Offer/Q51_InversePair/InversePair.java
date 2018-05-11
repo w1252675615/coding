@@ -10,10 +10,7 @@ public class InversePair {
         return coreInversePair(array,aux,0,array.length-1);
     }
     private int coreInversePair(int[] array, int[] aux, int lo, int hi) {
-        if (lo >= hi) {
-            aux[lo] = array[lo];
-            return 0;
-        }
+        if (lo >= hi) return 0;
         int middle = lo + (hi-lo)/2;
         int left = coreInversePair(aux,array,lo,middle)%1000000007;
         int right = coreInversePair(aux,array,middle+1,hi)%1000000007;

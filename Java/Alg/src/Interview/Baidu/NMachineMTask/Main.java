@@ -29,7 +29,6 @@ class node implements Comparable<node>{
 public class Main {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()) {
             int M = sc.nextInt(); //machines

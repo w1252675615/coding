@@ -61,7 +61,7 @@ public class Dijkstra {
 
         int i = first[s];
         if (i == -1) return path;
-        while (i != -1) {
+        while (i != -1) { //遍历s为源点的所有边
             distance[V[i]] = W[i];
             updatingDistance.offer(new distanceTo(V[i], W[i]));
             i = next[i];

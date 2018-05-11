@@ -17,7 +17,7 @@ public class BaseManacher {
         char[] charAtr = manacherString(str);
         int[] pArr = new int[charAtr.length]; //pArr[i]表示以i为中心的回文半径大小（121是2）
         int centre = -1; //取得当前最大的回文半径的中心的下标
-        int pR = -1; //最大回文半径的右边界的下标（121是3）
+        int pR = -1; //当前最大回文串的长度（121是3）
         int max = Integer.MIN_VALUE;
         for (int i = 0;i < charAtr.length;++i) {
             pArr[i] = i < pR ? Math.min(pArr[2*centre- i],pR-i):1; //i超出最大回文右边界，从1开始扩。没超出，根据对称点的回文半径三种情况
