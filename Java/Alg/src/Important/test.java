@@ -1,9 +1,8 @@
 package Important;
 
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+
 class test {
     private test(){};
     private static class singletonHolder {
@@ -14,6 +13,8 @@ class test {
     }
 
     public static void main(String[] args) {
+        LinkedList a ;
+        ArrayDeque b;
         /*String s = "123";
         try {
             byte[] b = s.getBytes("UTF-8");
